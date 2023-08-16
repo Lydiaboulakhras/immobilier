@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+      
+        <a href="#main" >Acceuil</a>
+        <div class="dropdown">
+          <a href="#pr">Projets réalisés</a>
+          <div class="dropdown-content" style="color: white;">
+            <a href="FATIMA.html" style="color: white;">HADJA FATIMA  </a>
+            <a href="AICHA.html" style="color: white;">HADJA AICHA </a>
+            <a href="MHAMED.html" style="color: white;">HADJ MHAMED </a>
+       
+         </div>
+         </div>
+       
+         <div class="dropdown">
+          <a href=""> Sites </a>
+          <div class="dropdown-content" style="color: white;">
+            <a href="" style="color: white;">Tlamcen  </a>
+            <a href="" style="color: white;">Oran </a>
+       
+         </div>
+         </div>
+        <a href="#pe" >Project en cours </a>
+        <a href="#search">Recherche</a>
+       
+     
+      </div>
+      <img src="pics/LOGO imobilier-PhotoRoom.png-PhotoRoom.png" alt="" style="height: 60px;width: 87px; object-fit: cover;position: absolute;right: 45%; ">
+      <div class="right">
+         
+        <div class="text">
+           
+          <div class="phone"><i class="fa-solid fa-phone"></i>
+          <a href="" >+213 770 59 88 07</a></div>
+            
+          
+          </div>
+
+        <a href="#contact"> <div class="connect" >Connect</div></a>
+      </div>
+    </nav>
+    <div class="main" id="main">
+        <video autoplay loop ="500px" width="100%">
+    <source src="pics/Vidéo sans titre ‐ Réalisée avec Clipchamp (1).mp4" type="video/mp4" >
+    Your browser does not support the video tag.
+  </video>
+  <div class="barre" style="color: aliceblue;display: flex;justify-content: center;align-items: center;font-size: 30px;"> Nos projets réalisés</div>
+      <div class="texts">
+        <p>
+          Des logements raffinés et spacieux <br> adaptés à vos besoins,
+dans des emplacements <br> prestigieux
+          
+        </p>
+        <br />
+        <a href=""> </a>
+      </div>
+      
+      <div class="icones">
+        <a href="https://www.facebook.com/profile.php?id=100069815385519"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com/e.den.pi/"><i class="fa-brands fa-instagram"></i></a> 
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:dennouni.promotion@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="projets" id="pr">
+       
+        <div class="grid-container">
+ <div class="grid-iteme"><div class="layer"><h3>RÉSIDENCE HADJ MOHAMMED</h3><a href="MHAMED.html"><div class="voir">Voir plus</div></div></a><img src="pics/hadk mhamed.jpg" alt=""> </div>
+  <div class="grid-iteme"><div class="layer"><h3>Ensemble immobilier HADJA FATIMA</h3><a href="FATIMA.html"><div class="voir">Voir plus</div></div></a><img src="pics/hadja fatima.jpg" alt=""></div>
+  <div class="grid-iteme"> <div class="layer"><h3 >HADJA AICHA</h3><a href="AICHA.html"><div class="voir">Voir plus</div></div></a><img src="pics/Hdja aicha.jpg" alt=""></div>
+  
+    </div>
+    
+    
+    <div class="search-container" id="search">
+       <i class="fa-solid fa-key" style="position: absolute; left: 25px; top: 52px"></i> <h3 style="position: absolute; left: 55px; top: 52px; ">Devenez proprietaire </h3>
+    
+    <form class="search-form">
+        <div class="firstgrp">
+            <div class="input-group">
+        <label for="location">Localisation:</label>
+        <input type="text" id="location" name="location" placeholder="Entrer la localisation">
+      </div>
+      <div class="input-group">
+        <label for="rooms">Nombre de chambres :</label>
+        <select id="rooms" name="rooms">
+          <option value="">Any</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5+</option>
+        </select>
+      </div>
+        </div>
+      <div class="secondgrp">
+        <div class="input-group">
+        <label for="max-price">Prix maximale(Da):</label>
+        <input type="number" id="max-price" name="max-price" placeholder="Entrer le prix maximal">
+      </div> 
+      <div class="input-group">
+        <label for="min-price">Prix minimale (Da):</label>
+        <input type="number" id="min-price" name="min-price" placeholder="Entrer le prix minimal">
+      </div>
+      </div>
+      
+      <button type="submit">Search</button>
+    </form>
+  </div>
+  <div class="qui" id="nous">
+          <div class="r-side">
+          
+  <video  controls ="520px" width="50%" class="vid">
+    <source src="pics/366759489_6709003522490280_7762002706862235522_n.mp4" type="video/mp4" >
+    Your browser does not support the video tag.
+  </video>  
+</div>
+          <div class="l-side">
+            <h3>Visite virtuel </h3>
+            <p>
+             visite virtuelle de notre appartement qui se situe a ORAN Cet appartement spacieux et lumineux est situé au cœur d'une rue calme, offrant une évasion paisible du tumulte de la vie urbaine. Lorsque vous entrez, vous êtes accueilli par un vestibule élégant orné de carrelage en marbre et d'un éclairage doux. Le salon s'ouvre devant vous, avec de larges baies vitrées laissant entrer la lumière naturelle et offrant une vue pittoresque sur la ville environnante. <br> <br>
+              Il offre une superficie généreuse d'environ 120 mètres carrés, créant ainsi un espace spacieux pour vivre et se détendre.
+
+L'appartement comprend trois chambres à coucher bien aménagées.
+            </p>
+           <a href="https://www.facebook.com/100069815385519/videos/1487358595135000"><div class="plus">En savoir plus</div></a> 
+          </div>
+      </div>
+      <div class="quitext">Qui somme nous</div>
+  <div class="qui" id="nous">
+          <div class="r-side">
+            <img src="pics/modern-residential-building.jpg" alt="">
+          </div>
+          <div class="l-side">
+            <h3>E.D.EN PI </h3>
+            <p>
+            L'entreprise  EDENPI vous présente ses projets au niveau de la ville d'Oran et Tlemcen. 
+ainsi que la disponibilité de quelques appartements et villas avec livraison immédiate. 
+La ville D'Oran 
+Ensemble immobilier "HADJA FATIMA" 
+04 tours résidentielles qui vous assurent un confort absolu  <br> <br>
+Des appartments spacieux et ensoleillés avec des Vues dégagées
+Un shopping center 
+Qui contient des espaces de shopping,  loisirs, restaurants et des espaces de santé et beauté 
+La ville de Tlemcen <br> <br>
+La Résidence "HADJA AICHA"
+Vous propose des villas individuelles calmes et ensoleillés.
+Résidences «  MYLENE et HADJ MOHAMMED »
+Des appartments haut standing, confortables ensoleillés et endroit excellent 
+          </div>
+      </div>
+      
+    <div class="footer-basic" id="contact">
+        <footer>
+            
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#main">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <a href="https://www.prodigital.dz/">
+          <p class="copyright">All rights reserved PRODIGITAL © 2023</p></a
+        >
+        </footer>
+        
+  </body>
+</html>
